@@ -3,7 +3,7 @@
  * alias_expansion - wrapper function for checking and replacing aliases
  * @b: buffer structure
  * @env_p: enviornment struct to pass along
- * Return: 1 on alias replacement, 0 if no replacement
+ * Return: 1 on alias replacement, else 0
  */
 int alias_expansion(buffer *b, env_t *env_p)
 {
