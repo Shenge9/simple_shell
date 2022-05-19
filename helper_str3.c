@@ -53,7 +53,7 @@ int _strpbrk_int(char *s, char *needles)
  * @s2: string 2
  * Description: Returns a match if both strings are the exactly the same
  *
- * Return: 1 if match, 0 if not match
+ * Return: 1 if match, else 0
  */
 int _str_match_strict(char *s1, char *s2)
 {
