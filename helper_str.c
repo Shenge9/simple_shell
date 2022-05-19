@@ -3,9 +3,9 @@
 /**
  * _memcpy - copies n bytes form the memory area src
  * to memory area dest
- * @src: source code to copy
- * @dest: destination to copy to
- * @n: how many bytes to copy
+ * @src: source code to cp
+ * @dest: destination to cp to
+ * @n: how many bytes to cp
  * Return: dest;
  */
 
