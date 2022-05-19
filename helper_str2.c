@@ -3,8 +3,8 @@
 /**
  * _strdup - returns a pointer to a new string which is a duplicate
  * of string str
- * @str: string to copy
- * Return: pointer to copy of string
+ * @str: string to cp
+ * Return: pointer to cp of string
  */
 
 char *_strdup(char *str)
