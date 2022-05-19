@@ -9,7 +9,7 @@ void _write(char *s)
 }
 /**
  * update_path - rewrites PWD path to not include sybols
- * @arg_list: arguement list given by the user to determine directory
+ * @arg_list: arguement list given by the user to determine dir
  * @envp: environemental variable linked list
  * @path: current path to be updated
  * @buf_size: the size of the current path
