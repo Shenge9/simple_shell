@@ -6,7 +6,7 @@
  * @envp: environemental linked list to find HOME and OLDPWD
  * @buf_size: size of the buffer
  * Return: returns the path to change, returns NULL if HOME
- * or OLDPWD is not found
+ *
  */
 
 char *cd_path(char **arg_list, env_t *envp, int buf_size)
