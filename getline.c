@@ -4,7 +4,7 @@
  * @b: buffer structure
  * @fd: file descriptor to read from
  * @envp: enviornment structure
- * Return: Always 0. Exit on failure or EOF
+ * Return: Always 0. Exit on failure EOF
  */
 int _getline(buffer *b, int fd, env_t *envp)
 {
