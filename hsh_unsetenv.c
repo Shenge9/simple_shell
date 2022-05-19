@@ -3,7 +3,7 @@
  * hsh_unsetenv - builtin command hsh_unsetenv, mimics builtin unsetenv
  * @arg_list: arguement list for unstenv, contains the variable name
  * @envp: the linked list of all environment variables
- * Return: 0 on success and 1 on failure
+ * Return: 0 on success and else 1
  * Description: This will delete the node that contains the variable given, if
  * node does not exist then function will succeed
  */
