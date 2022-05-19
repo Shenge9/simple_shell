@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * _free - frees memory and removes address from defer'd free list
+ * _free - frees memory and removes address from defered free list
  * @address: address to free
  */
 void _free(void *address)
