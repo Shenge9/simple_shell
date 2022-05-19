@@ -1,7 +1,7 @@
 #include "shell.h"
 /**
  * _getline - Read input and put in buffer
- * @b: buffer structure
+ * @b: buffer struct
  * @fd: file descriptor to read from
  * @envp: enviornment structure
  * Return: Always 0. Exit on failure EOF
