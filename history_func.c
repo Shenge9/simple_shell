@@ -88,7 +88,7 @@ hist_t *add_history(hist_t *head, char *cmd)
 
 /**
  * read_file - reads the simple_shell_history file and put it in a buffer
- * @envp: environemental variable linked list to get the HOME directory
+ * @envp: env variable linked list to get the HOME directory
  * @buf: buffer to input what is read
  * Return: 1 if success and 0 if failed
  */
