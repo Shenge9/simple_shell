@@ -1,8 +1,8 @@
 #include "shell.h"
 /**
  * _str_match - See if two strings are matching
- * @s1: string 1
- * @s2: string 2
+ * @s1: str 1
+ * @s2: str 2
  * Description: Returns a match if either string reaches \0 or space
  *
  * Return: 1 if match, 0 if not match
@@ -28,8 +28,8 @@ int _str_match(char *s1, char *s2)
 }
 /**
  * string_match - Find if strings match, w multiple delims to stop the match
- * @s1: string one
- * @s2: string two
+ * @s1: str one
+ * @s2: str two
  * @delim: delimiters to stop the match on
  * Description: \0 is ALWAYS a condition to stop the match and return true.
  *				Argument 'delim' gives the function additional chars to
@@ -55,7 +55,7 @@ int string_match(char *s1, char *s2, char *delim)
 /**
  * char_match - Find if char matches any given needles
  * @c: char to match
- * @needles: string to search for matching char
+ * @needles: str to search for matching char
  * Description: Returns true if char 'c' is a match for any character in
  *				needles, including \0. Therefore it is always a match
  *				if 'c' is \0. By design.
