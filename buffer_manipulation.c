@@ -1,7 +1,7 @@
 #include "shell.h"
 /**
  * buffer_reallocate - resize and copy over into new buffer space
- * @b: pointer to buffer structure
+ * @b: pointer to buffer struct
  */
 void buffer_reallocate(buffer *b)
 {
