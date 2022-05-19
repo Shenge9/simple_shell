@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * hsh_history - builtin command hsh_history, mimics builtin history
+ * hsh_history - builtin command hsh_history
  * @arg_list: argrument list of input
  * @envp: environemental variable list
  * @mode: mode to direct which function to execute
